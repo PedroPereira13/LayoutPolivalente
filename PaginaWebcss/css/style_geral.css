@@ -1,0 +1,80 @@
+/* Zerando margem e espacamento */ 
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/*Definicoes Gerais */
+body{
+  
+    font-family: "Arial", "sans-serif"; 
+    background-color: #7994bd;
+    
+}
+header{
+    background: #0e5fa1;
+    padding: 10px;
+    text-align: center;
+    height: 150px
+}
+/*Formatacao Links*/
+a{
+    text-decoration: none;
+}
+
+a:link, a:visited{
+    color: #1867a9;
+}
+
+a:hover{
+   text-decoration: underline;
+}
+
+nav>span>a{
+    font-size: 1.25em;
+    padding: 9px 10px;
+}
+nav>span>a:link, nav>span>a:visited{
+    color: white;
+}
+nav>span>a:hover, .selecionado a{
+     background: #39f;
+    text-decoration: none;
+    border-radius: 10px 1px ;
+}
+#navegacao{
+    padding: 20px;
+}
+/*main*/
+main{
+    width: 920px;
+    margin: 0 auto;
+}
+p{
+    text-indent: 50px;
+    padding: 8px;
+}
+.conteudo{
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: rgb(255, 255, 255);
+    text-align: justify;    
+    line-height: 1,5;
+}
+/*Definições de titulo*/
+h2{
+    text-align: center;
+    padding: 10px;
+    color: #1867a9;
+    border-bottom: 1px solid rgb(247, 222, 222);
+}
+.centralizar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer{
+    background-color:#c0c0c0 ;
+    text-align: center;
+    padding: 10px;
+}
